@@ -27,7 +27,7 @@ export default function Hero() {
         }}
       >
         <img
-          src="/bg.jpg"
+          src="/bg-desk.png"
           alt="background"
           className="w-full h-full object-cover opacity-30"
         />

@@ -18,8 +18,8 @@ export default function ServiceDetail() {
       </p>
 
       <div className="mt-6 text-blue-400">
-        Pricing: {service.pricing.range}
-      </div>
+  Pricing from ${service.pricing.base} to ${service.pricing.max}
+</div>
 
       <button className="mt-8 bg-blue-600 px-5 py-3 rounded-xl">
         Request this service
